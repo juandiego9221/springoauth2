@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\juan.mamani\Documents\Variado\Enero\8\Hands-On-Spring-Security-5-for-Reactive-Applications-master\Chapter06\springoauth2-example\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

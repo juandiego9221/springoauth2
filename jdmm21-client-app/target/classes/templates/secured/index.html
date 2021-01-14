@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div th:replace="index::logout"></div>
+<h1>Client application secured page</h1>
+<p>Click <a href="/movie" th:href="@{/movie}">here</a> to get movies from a secured resources server.</p>
+<br>
+<p><a href="/index" th:href="@{/index}">Back to non secured page</a></p>
+</body>
+</html>
